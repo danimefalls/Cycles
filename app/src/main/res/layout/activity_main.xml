@@ -12,5 +12,17 @@
         android:hint="Введите точность (например, 1-6)"
         android:inputType="numberDecimal" />
 
+    <Button
+        android:id="@+id/computeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вычислить" />
 
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="16sp"
+        android:text="Результат будет здесь..." />
 </LinearLayout>
